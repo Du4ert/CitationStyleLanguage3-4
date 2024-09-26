@@ -100,9 +100,9 @@ class CitationStyleLanguagePlugin extends GenericPlugin
             Hook::add('PreprintHandler::view', [$this, 'getTemplateData']);
             Hook::add('CatalogBookHandler::book', [$this, 'getTemplateData']);
             Hook::add('ArticleHandler::view', [$this, 'getTemplateData']);
-            Hook::add('Templates::Article::Details', [$this, 'addCitationMarkup']);
-            Hook::add('Templates::Catalog::Book::Details', [$this, 'addCitationMarkup']);
-            Hook::add('Templates::Catalog::Chapter::Details', [$this, 'addCitationMarkup']);
+            // Hook::add('Templates::Article::Details', [$this, 'addCitationMarkup']);
+            // Hook::add('Templates::Catalog::Book::Details', [$this, 'addCitationMarkup']);
+            // Hook::add('Templates::Catalog::Chapter::Details', [$this, 'addCitationMarkup']);
             Hook::add('LoadHandler', [$this, 'setPageHandler']);
         }
         return $success;
