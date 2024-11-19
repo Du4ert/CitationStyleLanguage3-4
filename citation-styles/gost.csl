@@ -291,7 +291,7 @@
     <text term="delimiter-custom"/>
   </macro>
 
-  <bibliography hanging-indent="true" et-al-min="8" et-al-use-first="6" et-al-use-last="true" entry-spacing="0" line-spacing="2">
+  <bibliography hanging-indent="true" et-al-min="8" et-al-use-first="20" et-al-use-last="true" entry-spacing="0" line-spacing="2">
 
     <layout>
       <group suffix=".">
